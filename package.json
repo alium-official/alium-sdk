@@ -1,7 +1,7 @@
 {
-  "name": "@aliumswap/sdk",
+  "name": "@alium-official/sdk",
   "license": "MIT",
-  "version": "1.1.10",
+  "version": "1.1.11",
   "description": "🛠 An SDK for building applications on top of alium swap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -55,5 +55,10 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org",
+    "tag": "next"
   }
 }
